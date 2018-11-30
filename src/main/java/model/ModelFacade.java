@@ -1,28 +1,20 @@
 package model;
 
-import observer.Observable;
-import observer.Observer;
-import view.IView;
+import model.fridge.Frigo;
 
-public class ModelFacade implements IModel, Observable {
+public class ModelFacade implements IModel {
 
-    @Override
-    public void addObserver(Observer obs) {
+    private Frigo frigo;
 
+    public ModelFacade() {
+        this.setFrigo(new Frigo(5.0f));
     }
 
-    @Override
-    public void removeObserver() {
-
+    public void setFrigo(Frigo frigo) {
+        this.frigo = frigo;
     }
 
-    @Override
-    public void notifyObserver(String str) {
-
-    }
-
-    @Override
-    public void addObserver(IView view) {
-
+    public Frigo getFrigo() {
+        return this.frigo;
     }
 }

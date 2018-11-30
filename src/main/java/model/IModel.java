@@ -1,7 +1,8 @@
 package model;
 
+import model.fridge.Frigo;
 import view.IView;
 
 public interface IModel {
-    void addObserver(IView view);
+    Frigo getFrigo();
 }
