@@ -19,6 +19,8 @@ import java.awt.*;
 
 public class ViewFacade implements IView , Runnable {
 
+    private final IModel model;
+
     private Frigo frigo;
 
     JTextField textField = new JTextField(5);
@@ -43,6 +45,7 @@ public class ViewFacade implements IView , Runnable {
     private IController controller;
 
     public ViewFacade(IModel model) {
+        this.model = model;
         this.setFrigo(model.getFrigo());
         SwingUtilities.invokeLater(this);
     }
