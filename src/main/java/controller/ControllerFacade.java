@@ -22,6 +22,8 @@ public class ControllerFacade implements IController, ActionListener {
 
     private final String com = "COM5";
 
+    private Long time = System.currentTimeMillis();
+
     public ControllerFacade(final IView view, final IModel model) {
         super();
         this.view = view;
@@ -55,7 +57,7 @@ public class ControllerFacade implements IController, ActionListener {
 
         while(this.arduinoReader.hasNextLine()){
             String message = this.arduinoReader.nextLine();
-            this.model.takeValue(message);
+            this.model.takeValue(message, view.getCoolingPlateSeries(), view.getIndoorSeries(), view.getOutdoorSeries(), time);
         }
     }
 
@@ -72,6 +74,12 @@ public class ControllerFacade implements IController, ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+
+        if(e.getSource().getClass().equals(JTextField.class)){
+            setTarget(Float.parseFloat(e.getActionCommand()));
+            return;
+        }
+
         switch (view.getList().getSelectedIndex()){
             case 0:
                 model.displayThermometer(model.getFrigo().getTempInt(), "Indoor Thermometer");

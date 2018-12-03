@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="2e6f697b-795a-454c-9342-842a0909cbcd" name="Default Changelist" comment="#feat Récupération des valeurs d'arduino sur java">
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/IModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/IModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/ModelFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ModelFacade.java" afterDir="false" />
-=======
     <list default="true" id="28d8f70c-7d50-4d87-8be8-f8a3bd19f85f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/controller/ControllerFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/controller/ControllerFacade.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/model/IModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/model/IModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/model/ModelFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/model/ModelFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/model/fridge/Frigo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/model/fridge/Frigo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/view/IView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/view/IView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/view/ViewFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/view/ViewFacade.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/IModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/IModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/ModelFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ModelFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/communication/SerialCom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/fridge/Frigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/fridge/Frigo.java" afterDir="false" />
->>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/src/main/java/view/IView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/IView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/ViewFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ViewFacade.java" afterDir="false" />
     </list>
@@ -43,93 +27,13 @@
       <ProjectState />
     </projectState>
   </component>
-<<<<<<< Updated upstream
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pmf.fr" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1817433581">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.123" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.52" value="1" />
-          <entry key="project.open.time.55" value="1" />
-          <entry key="project.open.time.58" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="MF" value="1" />
-          <entry key="class" value="3" />
-          <entry key="gradle" value="10" />
-          <entry key="java" value="26" />
-          <entry key="uml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="Groovy" value="10" />
-          <entry key="JAVA" value="26" />
-          <entry key="Manifest" value="1" />
-          <entry key="UML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="gradle" value="143" />
-          <entry key="java" value="11472" />
-          <entry key="txt" value="118" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Groovy" value="143" />
-          <entry key="JAVA" value="11472" />
-          <entry key="PLAIN_TEXT" value="118" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-=======
->>>>>>> Stashed changes
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="187">
-              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
             <state relative-caret-position="-7">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
->>>>>>> Stashed changes
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -137,91 +41,113 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-=======
             <state>
               <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
->>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/communication/SerialCom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-=======
       <file leaf-file-name="ModelFacade.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/ModelFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="71" lean-forward="true" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+            <state relative-caret-position="682">
+              <caret line="31" column="95" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#519#534#0" expanded="true" />
-                <element signature="e#519#575#0" expanded="true" />
-                <element signature="e#519#575#0" expanded="true" />
-                <element signature="e#593#608#0" expanded="true" />
-                <element signature="e#593#647#0" expanded="true" />
-                <element signature="e#593#647#0" expanded="true" />
-                <element signature="e#812#827#0" expanded="true" />
+                <element signature="e#259#316#0" expanded="true" />
+                <element signature="e#259#316#0" expanded="true" />
+                <element signature="e#326#344#0" expanded="true" />
+                <element signature="e#326#344#0" expanded="true" />
+                <element signature="e#488#1305#0" expanded="true" />
+                <element signature="e#488#1305#0" expanded="true" />
+                <element signature="e#556#589#0" expanded="true" />
+                <element signature="e#556#589#0" expanded="true" />
+                <element signature="e#556#589#0" expanded="true" />
+                <element signature="e#556#589#0" expanded="true" />
+                <element signature="e#532#547#0" expanded="true" />
+                <element signature="e#654#710#0" expanded="true" />
+                <element signature="e#654#710#0" expanded="true" />
+                <element signature="e#606#621#0" expanded="true" />
+                <element signature="e#728#782#0" expanded="true" />
+                <element signature="e#728#782#0" expanded="true" />
+                <element signature="e#678#693#0" expanded="true" />
+                <element signature="e#800#854#0" expanded="true" />
+                <element signature="e#800#854#0" expanded="true" />
+                <element signature="e#750#765#0" expanded="true" />
+                <element signature="e#872#929#0" expanded="true" />
+                <element signature="e#872#929#0" expanded="true" />
+                <element signature="e#825#840#0" expanded="true" />
+                <element signature="e#968#982#0" expanded="true" />
+                <element signature="e#968#994#0" expanded="true" />
+                <element signature="e#1390#1472#0" expanded="true" />
+                <element signature="e#1004#1018#0" expanded="true" />
+                <element signature="e#1390#1472#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1252#1253#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1323#1324#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerFacade.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ControllerFacade.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
->>>>>>> Stashed changes
+            <state relative-caret-position="349">
+              <caret line="68" column="50" lean-forward="true" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1401#1425#0" expanded="true" />
-                <element signature="e#1490#1537#1" expanded="true" />
-                <element signature="e#1649#1670#0" expanded="true" />
-                <element signature="e#1700#1739#0" expanded="true" />
-                <element signature="e#1700#1739#0" expanded="true" />
-                <element signature="e#1698#1747#1" expanded="true" />
-                <element signature="e#1713#1730#0" expanded="true" />
-                <element signature="e#1713#1730#0" expanded="true" />
-                <element signature="e#1712#1725#0" expanded="true" />
-                <element signature="e#1799#1824#0" expanded="true" />
-                <element signature="e#1871#1937#0" expanded="true" />
-                <element signature="e#1871#1937#0" expanded="true" />
-                <element signature="e#2019#2032#0" expanded="true" />
-                <element signature="e#1996#2008#0" expanded="true" />
-                <element signature="e#2019#2068#0" expanded="true" />
-                <element signature="e#2019#2068#0" expanded="true" />
-                <element signature="e#2083#2132#0" expanded="true" />
-                <element signature="e#2116#2136#0" expanded="true" />
-                <element signature="e#2083#2132#0" expanded="true" />
-                <element signature="e#1776#1790#0" expanded="true" />
-                <element signature="e#1776#1809#0" expanded="true" />
-                <element signature="e#1848#1864#0" expanded="true" />
-                <element signature="e#2253#2349#0" expanded="true" />
-                <element signature="e#1891#1907#0" expanded="true" />
-                <element signature="e#1891#1920#0" expanded="true" />
-                <element signature="e#2253#2349#0" expanded="true" />
+                <element signature="e#649#670#0" expanded="true" />
+                <element signature="e#750#774#0" expanded="true" />
+                <element signature="e#808#827#0" expanded="true" />
+                <element signature="e#927#942#0" expanded="true" />
+                <element signature="e#945#970#0" expanded="true" />
+                <element signature="e#987#1011#0" expanded="true" />
+                <element signature="e#1140#1179#0" expanded="true" />
+                <element signature="e#1099#1126#0" expanded="true" />
+                <element signature="e#1140#1179#0" expanded="true" />
+                <element signature="e#1286#1358#0" expanded="true" />
+                <element signature="e#1286#1358#0" expanded="true" />
+                <element signature="e#1413#1437#0" expanded="true" />
+                <element signature="e#1502#1549#1" expanded="true" />
+                <element signature="e#1592#1620#0" expanded="true" />
+                <element signature="e#1679#1701#0" expanded="true" />
+                <element signature="e#1703#1726#0" expanded="true" />
+                <element signature="e#1661#1682#0" expanded="true" />
+                <element signature="e#1799#1838#0" expanded="true" />
+                <element signature="e#1799#1838#0" expanded="true" />
+                <element signature="e#1710#1756#1" expanded="true" />
+                <element signature="e#1725#1743#0" expanded="true" />
+                <element signature="e#1725#1743#0" expanded="true" />
+                <element signature="e#1724#1755#0" expanded="true" />
+                <element signature="e#1783#1808#0" expanded="true" />
+                <element signature="e#1970#2036#0" expanded="true" />
+                <element signature="e#1970#2036#0" expanded="true" />
+                <element signature="e#1989#2002#0" expanded="true" />
+                <element signature="e#1989#2013#0" expanded="true" />
+                <element signature="e#2119#2168#0" expanded="true" />
+                <element signature="e#2119#2168#0" expanded="true" />
+                <element signature="e#2183#2232#0" expanded="true" />
+                <element signature="e#2081#2101#0" expanded="true" />
+                <element signature="e#2183#2232#0" expanded="true" />
+                <element signature="e#1985#1999#0" expanded="true" />
+                <element signature="e#1985#2018#0" expanded="true" />
+                <element signature="e#2082#2098#0" expanded="true" />
+                <element signature="e#2082#2111#0" expanded="true" />
+                <element signature="e#2220#2236#0" expanded="true" />
+                <element signature="e#2220#2249#0" expanded="true" />
+                <element signature="e#2359#2375#0" expanded="true" />
+                <element signature="e#2359#2390#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-=======
       <file leaf-file-name="Frigo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/fridge/Frigo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -230,65 +156,53 @@
               <folding>
                 <element signature="e#774#775#0" expanded="true" />
                 <element signature="e#818#819#0" expanded="true" />
->>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/ModelFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-=======
-      <file leaf-file-name="ViewFacade.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ViewFacade.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/view/ViewFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1936">
-              <caret line="111" column="31" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
+            <state relative-caret-position="1826">
+              <caret line="219" column="5" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
               <folding>
+                <element signature="e#1157#1235#0" expanded="true" />
+                <element signature="e#1157#1235#0" expanded="true" />
+                <element signature="e#5920#5929#0" expanded="true" />
+                <element signature="e#5920#5948#0" expanded="true" />
                 <element signature="e#6463#6479#0" expanded="true" />
-                <element signature="e#6456#6536#0" expanded="true" />
+                <element signature="e#5995#6075#0" expanded="true" />
                 <element signature="e#6483#6493#0" expanded="true" />
                 <element signature="e#6483#6493#0" expanded="true" />
                 <element signature="e#6506#6535#0" expanded="true" />
-                <element signature="e#6456#6536#0" expanded="true" />
-                <element signature="e#6597#6678#0" expanded="true" />
+                <element signature="e#5995#6075#0" expanded="true" />
+                <element signature="e#6136#6217#0" expanded="true" />
                 <element signature="e#6634#6644#0" expanded="true" />
                 <element signature="e#6634#6644#0" expanded="true" />
                 <element signature="e#6634#6657#0" expanded="true" />
-                <element signature="e#6597#6678#0" expanded="true" />
+                <element signature="e#6136#6217#0" expanded="true" />
                 <element signature="e#6786#6796#0" expanded="true" />
                 <element signature="e#6786#6796#0" expanded="true" />
                 <element signature="e#6786#6811#0" expanded="true" />
-                <element signature="e#6864#6897#0" expanded="true" />
-                <element signature="e#6864#6897#0" expanded="true" />
->>>>>>> Stashed changes
+                <element signature="e#6403#6436#0" expanded="true" />
+                <element signature="e#6403#6436#0" expanded="true" />
+                <element signature="e#6493#6494#0" expanded="true" />
+                <element signature="e#6534#6535#0" expanded="true" />
+                <element signature="e#6575#6576#0" expanded="true" />
+                <element signature="e#6610#6611#0" expanded="true" />
+                <element signature="e#6652#6653#0" expanded="true" />
+                <element signature="e#6688#6689#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/view/ViewFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="75" column="58" lean-forward="true" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
       <file leaf-file-name="IModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/IModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
->>>>>>> Stashed changes
+            <state relative-caret-position="220">
+              <caret line="12" column="116" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="116" />
             </state>
           </provider>
         </entry>
@@ -296,25 +210,8 @@
       <file leaf-file-name="IView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/view/IView.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-            <state>
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
->>>>>>> Stashed changes
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/IModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -322,7 +219,6 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -626,29 +522,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< Updated upstream
-        <option value="$PROJECT_DIR$/src/main/java/observer/observer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/observer/observable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/fridge/Frigo.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/IController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/communication/SerialCom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/view/ViewFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/ModelFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/view/IView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/IModel.java" />
-=======
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/model/communication/SerialCom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/IModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/view/IView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/ModelFacade.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/fridge/Frigo.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/view/ViewFacade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/IView.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java" />
->>>>>>> Stashed changes
+        <option value="$PROJECT_DIR$/src/main/java/model/IModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/ModelFacade.java" />
       </list>
     </option>
   </component>
@@ -658,39 +540,33 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-<<<<<<< Updated upstream
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="192" />
-    <option name="y" value="524" />
-    <option name="width" value="1520" />
-    <option name="height" value="1087" />
-=======
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
->>>>>>> Stashed changes
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="80" />
+    <option name="y" value="-26" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< Updated upstream
-=======
       <pane id="AndroidView" />
->>>>>>> Stashed changes
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pmf.fr" type="b2602c69:ProjectViewProjectNode" />
               <item name="PMF" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmf.fr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PMF" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pmf.fr" type="b2602c69:ProjectViewProjectNode" />
@@ -743,13 +619,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< Updated upstream
-            <path>
-              <item name="pmf.fr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-=======
->>>>>>> Stashed changes
           </expand>
           <select />
         </subPane>
@@ -760,12 +629,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< Updated upstream
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543872748358" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_181/bin/rxtxSerial.dll" />
-=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> Stashed changes
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -852,88 +716,17 @@
       <created>1543857999483</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< Updated upstream
-      <updated>1543486185212</updated>
-      <workItem from="1543486194906" duration="6594000" />
-      <workItem from="1543562841093" duration="28066000" />
-      <workItem from="1543686977265" duration="6182000" />
-      <workItem from="1543698823318" duration="1248000" />
-      <workItem from="1543767712949" duration="8898000" />
-      <workItem from="1543822119241" duration="31983000" />
-      <workItem from="1543868291841" duration="4629000" />
-    </task>
-    <task id="LOCAL-00001" summary="Init commit">
-      <created>1543493603192</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1543493603192</updated>
-    </task>
-    <task id="LOCAL-00002" summary="second commit">
-      <created>1543493849530</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1543493849530</updated>
-    </task>
-    <task id="LOCAL-00003" summary="#refactor MVC mis en place">
-      <created>1543570235208</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1543570235208</updated>
-=======
       <updated>1543857999483</updated>
       <workItem from="1543858000894" duration="3423000" />
-      <workItem from="1543872185049" duration="3683000" />
->>>>>>> Stashed changes
+      <workItem from="1543872185049" duration="6804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< Updated upstream
-    <option name="totallyTimeSpent" value="87600000" />
-=======
-    <option name="totallyTimeSpent" value="7106000" />
->>>>>>> Stashed changes
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="10227000" />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< Updated upstream
-    <frame x="192" y="524" width="1520" height="1087" extended-state="1" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27671233" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7563966" visible="true" weight="0.3326338" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6007463" weight="0.3991684" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32952183" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32952183" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989339" weight="0.32952183" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.24360341" side_tool="true" weight="0.32952183" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48454157" weight="0.32952183" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-=======
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -945,7 +738,6 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
->>>>>>> Stashed changes
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
@@ -954,10 +746,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2948295" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27450982" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.51859957" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="right" id="Gradle" order="3" />
@@ -977,31 +769,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/view/ViewFacade.java</url>
-          <line>208</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java</url>
-          <line>64</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="32" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/src/main/java/observer/Observable.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/UML/Diagram_class.uml" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/EventDispatchThread.java">
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1010,90 +778,105 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
->>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/event/InvocationEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/GridBagLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1768" selection-start-line="1768" selection-end-line="1768" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1866" selection-start-line="1866" selection-end-line="1866" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Runtime.java">
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/model/ModelFacade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#519#534#0" expanded="true" />
-            <element signature="e#519#575#0" expanded="true" />
-            <element signature="e#519#575#0" expanded="true" />
-            <element signature="e#593#608#0" expanded="true" />
-            <element signature="e#593#647#0" expanded="true" />
-            <element signature="e#593#647#0" expanded="true" />
-            <element signature="e#812#827#0" expanded="true" />
+            <element signature="e#259#316#0" expanded="true" />
+            <element signature="e#259#316#0" expanded="true" />
+            <element signature="e#326#344#0" expanded="true" />
+            <element signature="e#326#344#0" expanded="true" />
+            <element signature="e#488#1305#0" expanded="true" />
+            <element signature="e#488#1305#0" expanded="true" />
+            <element signature="e#556#589#0" expanded="true" />
+            <element signature="e#556#589#0" expanded="true" />
+            <element signature="e#556#589#0" expanded="true" />
+            <element signature="e#556#589#0" expanded="true" />
+            <element signature="e#532#547#0" expanded="true" />
+            <element signature="e#654#710#0" expanded="true" />
+            <element signature="e#654#710#0" expanded="true" />
+            <element signature="e#606#621#0" expanded="true" />
+            <element signature="e#728#782#0" expanded="true" />
+            <element signature="e#728#782#0" expanded="true" />
+            <element signature="e#678#693#0" expanded="true" />
+            <element signature="e#800#854#0" expanded="true" />
+            <element signature="e#800#854#0" expanded="true" />
+            <element signature="e#750#765#0" expanded="true" />
+            <element signature="e#872#929#0" expanded="true" />
+            <element signature="e#872#929#0" expanded="true" />
+            <element signature="e#825#840#0" expanded="true" />
+            <element signature="e#968#982#0" expanded="true" />
+            <element signature="e#968#994#0" expanded="true" />
+            <element signature="e#1390#1472#0" expanded="true" />
+            <element signature="e#1004#1018#0" expanded="true" />
+            <element signature="e#1390#1472#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java">
->>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1325">
           <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1401#1425#0" expanded="true" />
-            <element signature="e#1490#1537#1" expanded="true" />
-            <element signature="e#1649#1670#0" expanded="true" />
-            <element signature="e#1700#1739#0" expanded="true" />
-            <element signature="e#1700#1739#0" expanded="true" />
-            <element signature="e#1698#1747#1" expanded="true" />
-            <element signature="e#1713#1730#0" expanded="true" />
-            <element signature="e#1713#1730#0" expanded="true" />
-            <element signature="e#1712#1725#0" expanded="true" />
-            <element signature="e#1799#1824#0" expanded="true" />
-            <element signature="e#1871#1937#0" expanded="true" />
-            <element signature="e#1871#1937#0" expanded="true" />
-            <element signature="e#2019#2032#0" expanded="true" />
-            <element signature="e#1996#2008#0" expanded="true" />
-            <element signature="e#2019#2068#0" expanded="true" />
-            <element signature="e#2019#2068#0" expanded="true" />
-            <element signature="e#2083#2132#0" expanded="true" />
-            <element signature="e#2116#2136#0" expanded="true" />
-            <element signature="e#2083#2132#0" expanded="true" />
-            <element signature="e#1776#1790#0" expanded="true" />
-            <element signature="e#1776#1809#0" expanded="true" />
-            <element signature="e#1848#1864#0" expanded="true" />
-            <element signature="e#2253#2349#0" expanded="true" />
-            <element signature="e#1891#1907#0" expanded="true" />
-            <element signature="e#1891#1920#0" expanded="true" />
-            <element signature="e#2253#2349#0" expanded="true" />
+            <element signature="e#649#670#0" expanded="true" />
+            <element signature="e#750#774#0" expanded="true" />
+            <element signature="e#808#827#0" expanded="true" />
+            <element signature="e#927#942#0" expanded="true" />
+            <element signature="e#945#970#0" expanded="true" />
+            <element signature="e#987#1011#0" expanded="true" />
+            <element signature="e#1140#1179#0" expanded="true" />
+            <element signature="e#1099#1126#0" expanded="true" />
+            <element signature="e#1140#1179#0" expanded="true" />
+            <element signature="e#1286#1358#0" expanded="true" />
+            <element signature="e#1286#1358#0" expanded="true" />
+            <element signature="e#1413#1437#0" expanded="true" />
+            <element signature="e#1502#1549#1" expanded="true" />
+            <element signature="e#1592#1620#0" expanded="true" />
+            <element signature="e#1679#1701#0" expanded="true" />
+            <element signature="e#1703#1726#0" expanded="true" />
+            <element signature="e#1661#1682#0" expanded="true" />
+            <element signature="e#1799#1838#0" expanded="true" />
+            <element signature="e#1799#1838#0" expanded="true" />
+            <element signature="e#1710#1756#1" expanded="true" />
+            <element signature="e#1725#1743#0" expanded="true" />
+            <element signature="e#1725#1743#0" expanded="true" />
+            <element signature="e#1724#1755#0" expanded="true" />
+            <element signature="e#1783#1808#0" expanded="true" />
+            <element signature="e#1970#2036#0" expanded="true" />
+            <element signature="e#1970#2036#0" expanded="true" />
+            <element signature="e#1989#2002#0" expanded="true" />
+            <element signature="e#1989#2013#0" expanded="true" />
+            <element signature="e#2119#2168#0" expanded="true" />
+            <element signature="e#2119#2168#0" expanded="true" />
+            <element signature="e#2183#2232#0" expanded="true" />
+            <element signature="e#2081#2101#0" expanded="true" />
+            <element signature="e#2183#2232#0" expanded="true" />
+            <element signature="e#1985#1999#0" expanded="true" />
+            <element signature="e#1985#2018#0" expanded="true" />
+            <element signature="e#2082#2098#0" expanded="true" />
+            <element signature="e#2082#2111#0" expanded="true" />
+            <element signature="e#2220#2236#0" expanded="true" />
+            <element signature="e#2220#2249#0" expanded="true" />
+            <element signature="e#2359#2375#0" expanded="true" />
+            <element signature="e#2359#2390#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1116,41 +899,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/JButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/observer/Observer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/fridge/Frigo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/JComboBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1257" selection-start-line="1257" selection-end-line="1257" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/plaf/basic/BasicComboPopup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="516" selection-start-line="516" selection-end-line="516" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/view/IView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1163,22 +911,32 @@
         <state relative-caret-position="4450">
           <caret line="209" column="23" selection-start-line="209" selection-start-column="23" selection-end-line="209" selection-end-column="23" />
           <folding>
+            <element signature="e#1157#1235#0" expanded="true" />
+            <element signature="e#1157#1235#0" expanded="true" />
+            <element signature="e#5920#5929#0" expanded="true" />
+            <element signature="e#5920#5948#0" expanded="true" />
             <element signature="e#6463#6479#0" expanded="true" />
-            <element signature="e#6456#6536#0" expanded="true" />
+            <element signature="e#5995#6075#0" expanded="true" />
             <element signature="e#6483#6493#0" expanded="true" />
             <element signature="e#6483#6493#0" expanded="true" />
             <element signature="e#6506#6535#0" expanded="true" />
-            <element signature="e#6456#6536#0" expanded="true" />
-            <element signature="e#6597#6678#0" expanded="true" />
+            <element signature="e#5995#6075#0" expanded="true" />
+            <element signature="e#6136#6217#0" expanded="true" />
             <element signature="e#6634#6644#0" expanded="true" />
             <element signature="e#6634#6644#0" expanded="true" />
             <element signature="e#6634#6657#0" expanded="true" />
-            <element signature="e#6597#6678#0" expanded="true" />
+            <element signature="e#6136#6217#0" expanded="true" />
             <element signature="e#6786#6796#0" expanded="true" />
             <element signature="e#6786#6796#0" expanded="true" />
             <element signature="e#6786#6811#0" expanded="true" />
-            <element signature="e#6864#6897#0" expanded="true" />
-            <element signature="e#6864#6897#0" expanded="true" />
+            <element signature="e#6403#6436#0" expanded="true" />
+            <element signature="e#6403#6436#0" expanded="true" />
+            <element signature="e#6493#6494#0" expanded="true" />
+            <element signature="e#6534#6535#0" expanded="true" />
+            <element signature="e#6575#6576#0" expanded="true" />
+            <element signature="e#6610#6611#0" expanded="true" />
+            <element signature="e#6652#6653#0" expanded="true" />
+            <element signature="e#6688#6689#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1194,57 +952,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
->>>>>>> Stashed changes
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/IModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="697">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/communication/SerialCom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3029#3030#0" expanded="true" />
-            <element signature="e#3061#3062#0" expanded="true" />
-            <element signature="e#3111#3112#0" expanded="true" />
-            <element signature="e#3153#3154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/IController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-=======
-        <state>
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/view/IView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -1252,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
->>>>>>> Stashed changes
           <folding>
             <element signature="e#774#775#0" expanded="true" />
             <element signature="e#818#819#0" expanded="true" />
@@ -1260,136 +967,165 @@
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/IModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-=======
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jfree/jfreechart/1.0.19/5aae69aa497ce4ea82b59317102a09c5abc91ba1/jfreechart-1.0.19-sources.jar!/org/jfree/chart/ChartPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14500">
           <caret line="261" column="13" selection-start-line="261" selection-start-column="13" selection-end-line="261" selection-end-column="13" />
->>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/IView.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="330">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/IModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="116" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="68" column="50" lean-forward="true" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-=======
-        <state relative-caret-position="1936">
-          <caret line="111" column="31" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
+            <element signature="e#649#670#0" expanded="true" />
+            <element signature="e#750#774#0" expanded="true" />
+            <element signature="e#808#827#0" expanded="true" />
+            <element signature="e#927#942#0" expanded="true" />
+            <element signature="e#945#970#0" expanded="true" />
+            <element signature="e#987#1011#0" expanded="true" />
+            <element signature="e#1140#1179#0" expanded="true" />
+            <element signature="e#1099#1126#0" expanded="true" />
+            <element signature="e#1140#1179#0" expanded="true" />
+            <element signature="e#1286#1358#0" expanded="true" />
+            <element signature="e#1286#1358#0" expanded="true" />
+            <element signature="e#1413#1437#0" expanded="true" />
+            <element signature="e#1502#1549#1" expanded="true" />
+            <element signature="e#1592#1620#0" expanded="true" />
+            <element signature="e#1679#1701#0" expanded="true" />
+            <element signature="e#1703#1726#0" expanded="true" />
+            <element signature="e#1661#1682#0" expanded="true" />
+            <element signature="e#1799#1838#0" expanded="true" />
+            <element signature="e#1799#1838#0" expanded="true" />
+            <element signature="e#1710#1756#1" expanded="true" />
+            <element signature="e#1725#1743#0" expanded="true" />
+            <element signature="e#1725#1743#0" expanded="true" />
+            <element signature="e#1724#1755#0" expanded="true" />
+            <element signature="e#1783#1808#0" expanded="true" />
+            <element signature="e#1970#2036#0" expanded="true" />
+            <element signature="e#1970#2036#0" expanded="true" />
+            <element signature="e#1989#2002#0" expanded="true" />
+            <element signature="e#1989#2013#0" expanded="true" />
+            <element signature="e#2119#2168#0" expanded="true" />
+            <element signature="e#2119#2168#0" expanded="true" />
+            <element signature="e#2183#2232#0" expanded="true" />
+            <element signature="e#2081#2101#0" expanded="true" />
+            <element signature="e#2183#2232#0" expanded="true" />
+            <element signature="e#1985#1999#0" expanded="true" />
+            <element signature="e#1985#2018#0" expanded="true" />
+            <element signature="e#2082#2098#0" expanded="true" />
+            <element signature="e#2082#2111#0" expanded="true" />
+            <element signature="e#2220#2236#0" expanded="true" />
+            <element signature="e#2220#2249#0" expanded="true" />
+            <element signature="e#2359#2375#0" expanded="true" />
+            <element signature="e#2359#2390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/ModelFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="95" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="95" />
           <folding>
-            <element signature="e#6463#6479#0" expanded="true" />
-            <element signature="e#6456#6536#0" expanded="true" />
-            <element signature="e#6483#6493#0" expanded="true" />
-            <element signature="e#6483#6493#0" expanded="true" />
-            <element signature="e#6506#6535#0" expanded="true" />
-            <element signature="e#6456#6536#0" expanded="true" />
-            <element signature="e#6597#6678#0" expanded="true" />
-            <element signature="e#6634#6644#0" expanded="true" />
-            <element signature="e#6634#6644#0" expanded="true" />
-            <element signature="e#6634#6657#0" expanded="true" />
-            <element signature="e#6597#6678#0" expanded="true" />
-            <element signature="e#6786#6796#0" expanded="true" />
-            <element signature="e#6786#6796#0" expanded="true" />
-            <element signature="e#6786#6811#0" expanded="true" />
-            <element signature="e#6864#6897#0" expanded="true" />
-            <element signature="e#6864#6897#0" expanded="true" />
->>>>>>> Stashed changes
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#316#0" expanded="true" />
+            <element signature="e#259#316#0" expanded="true" />
+            <element signature="e#326#344#0" expanded="true" />
+            <element signature="e#326#344#0" expanded="true" />
+            <element signature="e#488#1305#0" expanded="true" />
+            <element signature="e#488#1305#0" expanded="true" />
+            <element signature="e#556#589#0" expanded="true" />
+            <element signature="e#556#589#0" expanded="true" />
+            <element signature="e#556#589#0" expanded="true" />
+            <element signature="e#556#589#0" expanded="true" />
+            <element signature="e#532#547#0" expanded="true" />
+            <element signature="e#654#710#0" expanded="true" />
+            <element signature="e#654#710#0" expanded="true" />
+            <element signature="e#606#621#0" expanded="true" />
+            <element signature="e#728#782#0" expanded="true" />
+            <element signature="e#728#782#0" expanded="true" />
+            <element signature="e#678#693#0" expanded="true" />
+            <element signature="e#800#854#0" expanded="true" />
+            <element signature="e#800#854#0" expanded="true" />
+            <element signature="e#750#765#0" expanded="true" />
+            <element signature="e#872#929#0" expanded="true" />
+            <element signature="e#872#929#0" expanded="true" />
+            <element signature="e#825#840#0" expanded="true" />
+            <element signature="e#968#982#0" expanded="true" />
+            <element signature="e#968#994#0" expanded="true" />
+            <element signature="e#1390#1472#0" expanded="true" />
+            <element signature="e#1004#1018#0" expanded="true" />
+            <element signature="e#1390#1472#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/ViewFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="-66">
-          <caret line="75" column="58" lean-forward="true" selection-start-line="75" selection-start-column="58" selection-end-line="75" selection-end-column="58" />
+        <state relative-caret-position="1826">
+          <caret line="219" column="5" selection-start-line="219" selection-start-column="5" selection-end-line="219" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-=======
-        <state relative-caret-position="440">
-          <caret line="22" column="71" lean-forward="true" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#519#534#0" expanded="true" />
-            <element signature="e#519#575#0" expanded="true" />
-            <element signature="e#519#575#0" expanded="true" />
-            <element signature="e#593#608#0" expanded="true" />
-            <element signature="e#593#647#0" expanded="true" />
-            <element signature="e#593#647#0" expanded="true" />
-            <element signature="e#812#827#0" expanded="true" />
->>>>>>> Stashed changes
+            <element signature="e#1157#1235#0" expanded="true" />
+            <element signature="e#1157#1235#0" expanded="true" />
+            <element signature="e#5920#5929#0" expanded="true" />
+            <element signature="e#5920#5948#0" expanded="true" />
+            <element signature="e#6463#6479#0" expanded="true" />
+            <element signature="e#5995#6075#0" expanded="true" />
+            <element signature="e#6483#6493#0" expanded="true" />
+            <element signature="e#6483#6493#0" expanded="true" />
+            <element signature="e#6506#6535#0" expanded="true" />
+            <element signature="e#5995#6075#0" expanded="true" />
+            <element signature="e#6136#6217#0" expanded="true" />
+            <element signature="e#6634#6644#0" expanded="true" />
+            <element signature="e#6634#6644#0" expanded="true" />
+            <element signature="e#6634#6657#0" expanded="true" />
+            <element signature="e#6136#6217#0" expanded="true" />
+            <element signature="e#6786#6796#0" expanded="true" />
+            <element signature="e#6786#6796#0" expanded="true" />
+            <element signature="e#6786#6811#0" expanded="true" />
+            <element signature="e#6403#6436#0" expanded="true" />
+            <element signature="e#6403#6436#0" expanded="true" />
+            <element signature="e#6493#6494#0" expanded="true" />
+            <element signature="e#6534#6535#0" expanded="true" />
+            <element signature="e#6575#6576#0" expanded="true" />
+            <element signature="e#6610#6611#0" expanded="true" />
+            <element signature="e#6652#6653#0" expanded="true" />
+            <element signature="e#6688#6689#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/ModelFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1401#1425#0" expanded="true" />
-            <element signature="e#1490#1537#1" expanded="true" />
-            <element signature="e#1649#1670#0" expanded="true" />
-            <element signature="e#1700#1739#0" expanded="true" />
-            <element signature="e#1700#1739#0" expanded="true" />
-            <element signature="e#1698#1747#1" expanded="true" />
-            <element signature="e#1713#1730#0" expanded="true" />
-            <element signature="e#1713#1730#0" expanded="true" />
-            <element signature="e#1712#1725#0" expanded="true" />
-            <element signature="e#1799#1824#0" expanded="true" />
-            <element signature="e#1871#1937#0" expanded="true" />
-            <element signature="e#1871#1937#0" expanded="true" />
-            <element signature="e#2019#2032#0" expanded="true" />
-            <element signature="e#1996#2008#0" expanded="true" />
-            <element signature="e#2019#2068#0" expanded="true" />
-            <element signature="e#2019#2068#0" expanded="true" />
-            <element signature="e#2083#2132#0" expanded="true" />
-            <element signature="e#2116#2136#0" expanded="true" />
-            <element signature="e#2083#2132#0" expanded="true" />
-            <element signature="e#1776#1790#0" expanded="true" />
-            <element signature="e#1776#1809#0" expanded="true" />
-            <element signature="e#1848#1864#0" expanded="true" />
-            <element signature="e#2253#2349#0" expanded="true" />
-            <element signature="e#1891#1907#0" expanded="true" />
-            <element signature="e#1891#1920#0" expanded="true" />
-            <element signature="e#2253#2349#0" expanded="true" />
->>>>>>> Stashed changes
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

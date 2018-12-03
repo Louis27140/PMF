@@ -2,6 +2,8 @@ package view;
 
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYZDataset;
 
 import javax.swing.*;
 import java.awt.*;
@@ -16,4 +18,8 @@ public interface IView extends Observer {
 
     @Override
     void update(Observable o, Object arg);
+
+    XYSeries getCoolingPlateSeries();
+    XYSeries getIndoorSeries();
+    XYSeries getOutdoorSeries();
 }

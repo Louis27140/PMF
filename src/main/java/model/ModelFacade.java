@@ -1,6 +1,7 @@
 package model;
 
 import model.fridge.Frigo;
+import org.jfree.data.xy.XYSeries;
 import view.IView;
 
 public class ModelFacade implements IModel {
@@ -16,7 +17,7 @@ public class ModelFacade implements IModel {
         this.setView(view);
     }
 
-    public void takeValue(String str) {
+    public void takeValue(String str, XYSeries coolingPlateSeries, XYSeries indoorSeries, XYSeries outdoorSeries, Long time) {
         if (str.startsWith("s") && str.endsWith("e")) {
             split = str.substring(1,str.length() - 1).split(";");
 
@@ -25,6 +26,11 @@ public class ModelFacade implements IModel {
                 this.getFrigo().setTempInt(Float.parseFloat(split[1]));
                 this.getFrigo().setTempExt(Float.parseFloat(split[2]));
                 this.getFrigo().setHygrometry(Float.parseFloat(split[3]));
+
+                coolingPlateSeries.add(System.currentTimeMillis() - time, Float.parseFloat(split[0]));
+                indoorSeries.add(System.currentTimeMillis() - time, Float.parseFloat(split[1]));
+                outdoorSeries.add(System.currentTimeMillis() - time, Float.parseFloat(split[2]));
+
                 this.getFrigo().notifyObservers();
             }
         }
