@@ -9,4 +9,5 @@ public interface IModel {
     void displayThermometer(float tempPlate, String plate_thermometer);
 
     void setView(IView view);
+    void takeValue(String str);
 }

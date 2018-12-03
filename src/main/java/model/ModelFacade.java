@@ -20,10 +20,13 @@ public class ModelFacade implements IModel {
         if (str.startsWith("s") && str.endsWith("e")) {
             split = str.substring(1,str.length() - 1).split(";");
 
-            this.getFrigo().setTempPlate(Float.parseFloat(split[0]));
-            this.getFrigo().setTempInt(Float.parseFloat(split[1]));
-            this.getFrigo().setTempExt(Float.parseFloat(split[2]));
-            this.getFrigo().setHygrometry(Float.parseFloat(split[3]));
+            if(split.length == 4){
+                this.getFrigo().setTempPlate(Float.parseFloat(split[0]));
+                this.getFrigo().setTempInt(Float.parseFloat(split[1]));
+                this.getFrigo().setTempExt(Float.parseFloat(split[2]));
+                this.getFrigo().setHygrometry(Float.parseFloat(split[3]));
+                this.getFrigo().notifyObservers();
+            }
         }
     }
 

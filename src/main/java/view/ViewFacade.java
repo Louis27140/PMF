@@ -16,8 +16,10 @@ import org.jfree.data.xy.XYSeriesCollection;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Observable;
+import java.util.Observer;
 
-public class ViewFacade implements IView , Runnable {
+public class ViewFacade implements IView , Runnable, Observer {
 
     private final IModel model;
 
@@ -203,6 +205,27 @@ public class ViewFacade implements IView , Runnable {
 
     public JComboBox getList() {
         return this.list;
+    }
+
+    @Override
+    public void update(Observable o, Object arg) {
+//        chartTemp.notify();
+//        thermo.notify();
+//        hygrometer.notify();
+
+        switch (getList().getSelectedIndex()){
+            case 0:
+                getThermo().setChart(thermometer(((Frigo)o).getTempInt(), "Indoor Thermometer"));
+                break;
+            case 1:
+                getThermo().setChart(thermometer(((Frigo)o).getTempExt(), "Outdoor Thermometer"));
+                break;
+            case 2:
+                getThermo().setChart(thermometer(((Frigo)o).getTempPlate(), "Plate Thermometer"));
+                break;
+        }
+
+        hygrometer.setChart(hygrometer());
     }
 }
 

@@ -1,8 +1,8 @@
 package model.fridge;
 
-import model.ModelFacade;
+import java.util.Observable;
 
-public class Frigo {
+public class Frigo extends Observable {
 
     public Frigo(float tempInt, float hygro, float tempExt, float tempPlate, float target) {
         this.setTempInt(tempInt);
@@ -60,5 +60,11 @@ public class Frigo {
 
     public void setTempPlate(float tempPlate) {
         this.tempPlate = tempPlate;
+    }
+
+    @Override
+    public void notifyObservers(){
+        setChanged();
+        super.notifyObservers();
     }
 }
