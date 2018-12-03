@@ -5,4 +5,6 @@ import view.IView;
 
 public interface IModel {
     Frigo getFrigo();
+
+    void addObserver(IView view);
 }
