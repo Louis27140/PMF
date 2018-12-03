@@ -1,6 +1,5 @@
 package model;
 
-import model.communication.SerialCom;
 import model.fridge.Frigo;
 import view.IView;
 
@@ -8,13 +7,13 @@ public class ModelFacade implements IModel {
 
     private Frigo frigo;
 
-    private SerialCom serialCom;
-
     private String split[];
 
+    private IView view;
+
     public ModelFacade() {
-        serialCom = new SerialCom(this);
         this.setFrigo(new Frigo(20.0f, 0.5f, 5.0f, 17.0f, 16.0f));
+        this.setView(view);
     }
 
     public void takeValue(String str) {
@@ -28,6 +27,10 @@ public class ModelFacade implements IModel {
         }
     }
 
+    public void displayThermometer(float temp, String thermometer) {
+        this.getView().getThermo().setChart(this.getView().thermometer(temp, thermometer));
+    }
+
     public void setFrigo(Frigo frigo) {
         this.frigo = frigo;
     }
@@ -36,16 +39,11 @@ public class ModelFacade implements IModel {
         return this.frigo;
     }
 
-    @Override
-    public void addObserver(IView view) {
-
+    public IView getView() {
+        return view;
     }
 
-    public SerialCom getSerialCom() {
-        return serialCom;
-    }
-
-    public void setSerialCom(SerialCom serialCom) {
-        this.serialCom = serialCom;
+    public void setView(IView view) {
+        this.view = view;
     }
 }

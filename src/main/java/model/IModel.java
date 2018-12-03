@@ -6,5 +6,7 @@ import view.IView;
 public interface IModel {
     Frigo getFrigo();
 
-    void addObserver(IView view);
+    void displayThermometer(float tempPlate, String plate_thermometer);
+
+    void setView(IView view);
 }

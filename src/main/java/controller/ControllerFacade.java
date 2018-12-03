@@ -14,8 +14,8 @@ public class ControllerFacade implements IController, ActionListener {
     public ControllerFacade(final IView view, final IModel model) {
         super();
         this.view = view;
-        this.view.setController(this);
         this.model = model;
+        this.model.setView(view);
     }
 
     @Override
@@ -31,15 +31,15 @@ public class ControllerFacade implements IController, ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        switch (view.getList().getSelectedIndex()){
+        switch (this.view.getList().getSelectedIndex()){
             case 0:
-                view.getThermo().setChart(view.thermometer(model.getFrigo().getTempInt(), "Indoor Thermometer"));
+                model.displayThermometer(model.getFrigo().getTempInt(), "Indoor Thermometer");
                 break;
             case 1:
-                view.getThermo().setChart(view.thermometer(model.getFrigo().getTempExt(), "Outdoor Thermometer"));
+                model.displayThermometer(model.getFrigo().getTempExt(), "Outdoor Thermometer");
                 break;
             case 2:
-                view.getThermo().setChart(view.thermometer(model.getFrigo().getTempPlate(), "Plate Thermometer"));
+                model.displayThermometer(model.getFrigo().getTempPlate(), "Plate Thermometer");
                 break;
             default:
                 break;
