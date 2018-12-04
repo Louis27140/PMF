@@ -13,6 +13,7 @@ public class ModelFacade implements IModel {
     private IView view;
 
     public ModelFacade() {
+<<<<<<< Updated upstream
         this.setFrigo(new Frigo(20.0f, 0.5f, 5.0f, 17.0f, 16.0f));
     }
 

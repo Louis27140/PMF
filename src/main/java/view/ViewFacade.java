@@ -20,8 +20,6 @@ import java.util.Observer;
 
 public class ViewFacade implements IView, Runnable, Observer {
 
-    private final IModel model;
-
     private Frigo frigo;
 
     JTextField textField = new JTextField(5);
@@ -55,6 +53,14 @@ public class ViewFacade implements IView, Runnable, Observer {
     public ViewFacade(IModel model) {
         this.model = model;
         this.setFrigo(model.getFrigo());
+=======
+    XYSeries coolingPlateSeries = new XYSeries("Cooling plate");
+    XYSeries indoorSeries = new XYSeries("Indoor");
+    XYSeries outdoorSeries = new XYSeries("Outdoor");
+
+    public ViewFacade(Frigo frigo) {
+        this.setFrigo(frigo);
+>>>>>>> Stashed changes
         SwingUtilities.invokeLater(this);
     }
 
@@ -72,9 +78,14 @@ public class ViewFacade implements IView, Runnable, Observer {
     }
 
     public void buildFrame() {
+<<<<<<< Updated upstream
+=======
         ImageIcon imageIcon = new ImageIcon("src/Image/cesi.png");
         imageLabel = new JLabel(imageIcon);
 
+        ImageIcon favicon = new ImageIcon("src/Image/favicon.ico");
+
+>>>>>>> Stashed changes
         GridBagConstraints c = new GridBagConstraints();
         Font titleFont = new Font("Arial", Font.BOLD, 20);
 
@@ -82,6 +93,7 @@ public class ViewFacade implements IView, Runnable, Observer {
         window.setTitle("Pimp My Fridge UI");
         window.setSize(1100, 1100);
         window.setResizable(false);
+        window.setIconImage(favicon.getImage());
         window.setLayout(new FlowLayout());
         window.setVisible(true);
         window.getContentPane().setBackground(Color.WHITE);

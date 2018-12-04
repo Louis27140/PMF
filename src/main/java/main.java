@@ -15,7 +15,7 @@ public abstract class main {
     public static void main(final String[] args) {
 
         final IModel model = new ModelFacade();
-        final IView view = new ViewFacade(model);
+        final IView view = new ViewFacade(model.getFrigo());
         final IController controller = new ControllerFacade(view, model);
 
         controller.start();
