@@ -20,7 +20,7 @@ public class ControllerFacade implements IController, ActionListener {
     private SerialPort arduino;
     private Scanner arduinoReader;
 
-    private final String com = "COM5";
+    private final String com = "COM3";
 
     private Long time = System.currentTimeMillis();
 
