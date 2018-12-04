@@ -36,7 +36,6 @@ public class ViewFacade implements IView, Runnable, Observer {
     private JPanel panBody = new JPanel();
     private JLabel title = new JLabel("Pimp My Fridge !!");
     private JLabel doorState = new JLabel("Porte Ouverte");
-    private JButton button = new JButton("Change value");
     private String[] choiceThermo = new String[]{"Indoor Thermometer", "Outdoor Thermometer", "Plate Thermometer"};
     private JComboBox list = new JComboBox(choiceThermo);
 
@@ -79,48 +78,53 @@ public class ViewFacade implements IView, Runnable, Observer {
 
         // Content Panel Header settings
         panHead.setLayout(new GridBagLayout());
-        panBody.setLayout(new GridBagLayout());
         panHead.setSize(1000, 500);
-        panBody.setSize(1000, 500);
         panHead.setBackground(Color.WHITE);
         c.fill = GridBagConstraints.HORIZONTAL;
-        c.gridx = 0;
-        c.gridy = 0;
+        this.setGrid(c, 0 , 0);
         panHead.add(title, c);
-        c.gridx = 1;
-        c.gridy = 0;
+        this.setGrid(c , 1, 0);
         panHead.add(list);
-        c.gridx = 0;
-        c.gridy = 2;
+        this.setGrid(c, 0 , 2);
         thermo.setChart(thermometer(frigo.getTempInt(), "Indoor Thermometer"));
         panHead.add(thermo, c);
-        c.gridx = 1;
-        c.gridy = 1;
+        this.setGrid(c, 1, 1);
         panHead.add(doorState, c);
-        c.gridx = 3;
-        c.gridy = 0;
+        this.setGrid(c, 3, 0);
         c.fill = GridBagConstraints.NONE;
         textField.setText(Float.toString(frigo.getTarget()));
         panHead.add(textField, c);
+
+        // Chart Settings
+
         hygrometer.setChart(hygrometer());
         chartTemp.setChart(createChartPanel());
         thermo.setPreferredSize(new Dimension(200, 400));
         hygrometer.setPreferredSize(new Dimension(300, 200));
         chartTemp.setPreferredSize(new Dimension(1000, 500));
         c.fill = GridBagConstraints.VERTICAL;
-        c.gridx = 0;
-        c.gridy = 2;
+        this.setGrid(c , 0, 2);
         panHead.add(thermo, c);
-        c.gridx = 3;
-        c.gridy = 2;
+        this.setGrid(c, 3, 2);
         c.fill = GridBagConstraints.NONE;
         panHead.add(hygrometer, c);
+
+        // Panel Body Settings
+
+        panBody.setSize(1000, 500);
+        panBody.setLayout(new GridBagLayout());
         c.anchor = GridBagConstraints.PAGE_END;
         panBody.add(chartTemp, c);
+
         // Title Label setting
         title.setFont(titleFont);
         doorState.setFont(titleFont);
         doorState.setVisible(false);
+    }
+
+    public void setGrid(GridBagConstraints c, int x, int y) {
+        c.gridx = x;
+        c.gridy = y;
     }
 
     public JFreeChart thermometer(float temp, String title) {
