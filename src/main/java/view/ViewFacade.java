@@ -1,6 +1,5 @@
 package view;
 
-import controller.IController;
 import model.IModel;
 import model.fridge.Frigo;
 
@@ -39,6 +38,7 @@ public class ViewFacade implements IView, Runnable, Observer {
     private String[] choiceThermo = new String[]{"Indoor Thermometer", "Outdoor Thermometer", "Plate Thermometer"};
     private JComboBox list = new JComboBox(choiceThermo);
     private JLabel targetLabel = new JLabel();
+    private JLabel imageLabel;
 
     private ChartPanel thermo = new ChartPanel(null);
     ChartPanel hygrometer = new ChartPanel(null);
@@ -48,28 +48,39 @@ public class ViewFacade implements IView, Runnable, Observer {
     XYSeries indoorSeries = new XYSeries("Indoor");
     XYSeries outdoorSeries = new XYSeries("Outdoor");
 
+    /**
+     *
+     * @param model
+     */
     public ViewFacade(IModel model) {
         this.model = model;
         this.setFrigo(model.getFrigo());
         SwingUtilities.invokeLater(this);
     }
 
+    /**
+     *
+     * @param frigo
+     */
     public void setFrigo(Frigo frigo) {
         this.frigo = frigo;
     }
 
     @Override
     public void run() {
-        buildFrame();
+            buildFrame();
     }
 
     public void buildFrame() {
+        ImageIcon imageIcon = new ImageIcon("src/Image/cesi.png");
+        imageLabel = new JLabel(imageIcon);
+
         GridBagConstraints c = new GridBagConstraints();
         Font titleFont = new Font("Arial", Font.BOLD, 20);
 
         // Window Settings
         window.setTitle("Pimp My Fridge UI");
-        window.setSize(1200, 1200);
+        window.setSize(1100, 1100);
         window.setResizable(false);
         window.setLayout(new FlowLayout());
         window.setVisible(true);
@@ -86,6 +97,9 @@ public class ViewFacade implements IView, Runnable, Observer {
         panHead.add(title, c);
         this.setGrid(c , 1, 0);
         panHead.add(list);
+        this.setGrid(c, 2, 0);
+        imageLabel.setSize(146, 86);
+        panHead.add(imageLabel);
         this.setGrid(c, 0 , 2);
         thermo.setChart(thermometer(frigo.getTempInt(), "Indoor Thermometer"));
         panHead.add(thermo, c);
@@ -100,14 +114,13 @@ public class ViewFacade implements IView, Runnable, Observer {
 
         hygrometer.setChart(hygrometer());
         chartTemp.setChart(createChartPanel());
-        thermo.setPreferredSize(new Dimension(200, 400));
-        hygrometer.setPreferredSize(new Dimension(300, 200));
+        thermo.setPreferredSize(new Dimension(150, 300));
+        hygrometer.setPreferredSize(new Dimension(200, 100));
         chartTemp.setPreferredSize(new Dimension(1000, 500));
         c.fill = GridBagConstraints.VERTICAL;
         this.setGrid(c , 0, 2);
         panHead.add(thermo, c);
         this.setGrid(c, 3, 2);
-        c.fill = GridBagConstraints.NONE;
         panHead.add(hygrometer, c);
 
         // Panel Body Settings
@@ -134,6 +147,13 @@ public class ViewFacade implements IView, Runnable, Observer {
         c.gridy = y;
     }
 
+    /**
+     *
+     * @param temp
+     * @param title
+     * @return
+     */
+
     public JFreeChart thermometer(float temp, String title) {
         final DefaultValueDataset data = new DefaultValueDataset(temp);
         final ThermometerPlot thermometer = new ThermometerPlot(data);
@@ -146,6 +166,11 @@ public class ViewFacade implements IView, Runnable, Observer {
         return chart;
     }
 
+
+    /**
+     *
+     * @return
+     */
     public JFreeChart hygrometer() {
         final DefaultValueDataset data = new DefaultValueDataset(frigo.getHygrometry());
         final MeterPlot meter = new MeterPlot(data);
@@ -156,6 +181,11 @@ public class ViewFacade implements IView, Runnable, Observer {
         meter.setUnits("% Humidity");
         return chart;
     }
+
+    /**
+     *
+     * @return
+     */
 
     private JFreeChart createChartPanel() {
         String chartTitle = "Temperature changes";
@@ -170,6 +200,12 @@ public class ViewFacade implements IView, Runnable, Observer {
         return chart;
     }
 
+
+    /**
+     *
+     * @return
+     */
+
     public XYDataset dataSet() {
         XYSeriesCollection dataset = new XYSeriesCollection();
 
@@ -180,18 +216,36 @@ public class ViewFacade implements IView, Runnable, Observer {
         return dataset;
     }
 
+    /**
+     *
+     * @return
+     */
     public JTextField getTextField() {
         return textField;
     }
+
+    /**
+     *
+     * @return
+     */
 
     public ChartPanel getThermo() {
         return this.thermo;
     }
 
+    /**
+     *
+     * @return
+     */
     public JComboBox getList() {
         return this.list;
     }
 
+    /**
+     *
+     * @param o
+     * @param arg
+     */
     @Override
     public void update(Observable o, Object arg) {
         switch (getList().getSelectedIndex()) {
@@ -217,14 +271,26 @@ public class ViewFacade implements IView, Runnable, Observer {
                     "Risk of condensation");
     }
 
+    /**
+     *
+     * @return
+     */
     public XYSeries getCoolingPlateSeries() {
         return coolingPlateSeries;
     }
 
+    /**
+     *
+     * @return
+     */
     public XYSeries getIndoorSeries() {
         return indoorSeries;
     }
 
+    /**
+     *
+     * @return
+     */
     public XYSeries getOutdoorSeries() {
         return outdoorSeries;
     }

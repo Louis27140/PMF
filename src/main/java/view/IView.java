@@ -14,8 +14,20 @@ public interface IView extends Observer {
     JTextField getTextField();
     JComboBox<Object> getList();
     ChartPanel getThermo();
+
+    /**
+     *
+     * @param temp
+     * @param title
+     * @return
+     */
     JFreeChart thermometer(float temp, String title);
 
+    /**
+     *
+     * @param o
+     * @param arg
+     */
     @Override
     void update(Observable o, Object arg);
 

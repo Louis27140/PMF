@@ -24,6 +24,12 @@ public class ControllerFacade implements IController, ActionListener {
 
     private Long time = System.currentTimeMillis();
 
+    /**
+     *
+     * @param view
+     * @param model
+     */
+
     public ControllerFacade(final IView view, final IModel model) {
         super();
         this.view = view;
@@ -61,7 +67,10 @@ public class ControllerFacade implements IController, ActionListener {
         }
     }
 
-
+    /**
+     *
+     * @param target
+     */
     public void setTarget(float target) {
         this.model.getFrigo().setTarget(target);
         byte[] data = ("s" + target + "e").getBytes();
@@ -72,6 +81,10 @@ public class ControllerFacade implements IController, ActionListener {
         }
     }
 
+    /**
+     *
+     * @param e
+     */
     @Override
     public void actionPerformed(ActionEvent e) {
 

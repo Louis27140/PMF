@@ -8,7 +8,10 @@ import view.ViewFacade;
 public abstract class main {
 
 
-
+    /**
+     *
+     * @param args
+     */
     public static void main(final String[] args) {
 
         final IModel model = new ModelFacade();

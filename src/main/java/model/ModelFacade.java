@@ -17,6 +17,15 @@ public class ModelFacade implements IModel {
         this.setView(view);
     }
 
+    /**
+     *
+     * @param str
+     * @param coolingPlateSeries
+     * @param indoorSeries
+     * @param outdoorSeries
+     * @param time
+     */
+
     public void takeValue(String str, XYSeries coolingPlateSeries, XYSeries indoorSeries, XYSeries outdoorSeries, Long time) {
         if (str.startsWith("s") && str.endsWith("e")) {
             split = str.substring(1,str.length() - 1).split(";");
@@ -36,21 +45,43 @@ public class ModelFacade implements IModel {
         }
     }
 
+    /**
+     *
+     * @param temp,  thermometer
+     */
+
     public void displayThermometer(float temp, String thermometer) {
         this.getView().getThermo().setChart(this.getView().thermometer(temp, thermometer));
     }
 
+    /**
+     *
+     * @param frigo
+     */
     public void setFrigo(Frigo frigo) {
         this.frigo = frigo;
     }
 
+    /**
+     *
+     * @return
+     */
     public Frigo getFrigo() {
         return this.frigo;
     }
 
+    /**
+     *
+     * @return
+     */
     public IView getView() {
         return view;
     }
+
+    /**
+     *
+     * @param view
+     */
 
     public void setView(IView view) {
         this.view = view;
