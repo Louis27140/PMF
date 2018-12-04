@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="28d8f70c-7d50-4d87-8be8-f8a3bd19f85f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/view/ViewFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/view/ViewFacade.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/ViewFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ViewFacade.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="28d8f70c-7d50-4d87-8be8-f8a3bd19f85f" name="Default" comment="" />
+>>>>>>> Stashed changes
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +80,11 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="false">
+=======
+      <file leaf-file-name="ControllerFacade.java" pinned="false" current-in-tab="false">
+>>>>>>> Stashed changes
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="903">
@@ -106,8 +114,13 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/fridge/Frigo.java">
+=======
+      <file leaf-file-name="ViewFacade.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/view/ViewFacade.java">
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="748">
               <caret line="70" selection-start-line="70" selection-end-line="70" />
@@ -615,12 +628,16 @@
       <updated>1543857999483</updated>
       <workItem from="1543858000894" duration="3423000" />
       <workItem from="1543872185049" duration="6804000" />
-      <workItem from="1543908234875" duration="4545000" />
+      <workItem from="1543908234875" duration="5372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="15176000" />
+=======
+    <option name="totallyTimeSpent" value="15599000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -703,6 +720,24 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/ModelFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1390#1404#0" expanded="true" />
+            <element signature="e#1390#1416#0" expanded="true" />
+            <element signature="e#1390#1472#0" expanded="true" />
+            <element signature="e#1426#1440#0" expanded="true" />
+            <element signature="e#1390#1472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -710,6 +745,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ControllerFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1577">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1645#1673#0" expanded="true" />
+            <element signature="e#1675#1697#0" expanded="true" />
+            <element signature="e#1921#1946#0" expanded="true" />
+            <element signature="e#2516#2532#0" expanded="true" />
+            <element signature="e#2516#2545#0" expanded="true" />
+            <element signature="e#2655#2671#0" expanded="true" />
+            <element signature="e#2655#2686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/view/ViewFacade.java">
+>>>>>>> Stashed changes
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -750,5 +818,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Stashed changes
   </component>
 </project>
