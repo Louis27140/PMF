@@ -38,6 +38,7 @@ public class ViewFacade implements IView, Runnable, Observer {
     private JLabel doorState = new JLabel("Porte Ouverte");
     private String[] choiceThermo = new String[]{"Indoor Thermometer", "Outdoor Thermometer", "Plate Thermometer"};
     private JComboBox list = new JComboBox(choiceThermo);
+    private JLabel targetLabel = new JLabel();
 
     private ChartPanel thermo = new ChartPanel(null);
     ChartPanel hygrometer = new ChartPanel(null);
@@ -90,7 +91,7 @@ public class ViewFacade implements IView, Runnable, Observer {
         panHead.add(thermo, c);
         this.setGrid(c, 1, 1);
         panHead.add(doorState, c);
-        this.setGrid(c, 3, 0);
+        this.setGrid(c, 4, 0);
         c.fill = GridBagConstraints.NONE;
         textField.setText(Float.toString(frigo.getTarget()));
         panHead.add(textField, c);
@@ -120,6 +121,12 @@ public class ViewFacade implements IView, Runnable, Observer {
         title.setFont(titleFont);
         doorState.setFont(titleFont);
         doorState.setVisible(false);
+
+        // Target
+        this.setGrid(c, 3, 0);
+        panHead.add(targetLabel, c);
+        targetLabel.setText("Target :");
+        targetLabel.setFont(titleFont);
     }
 
     public void setGrid(GridBagConstraints c, int x, int y) {
@@ -204,6 +211,10 @@ public class ViewFacade implements IView, Runnable, Observer {
         if (((Frigo) o).getTempInt() >= ((Frigo) o).getTempExt() - 2) {
             doorState.setVisible(true);
         }
+
+        if(((Frigo) o).dewPoint())
+            JOptionPane.showMessageDialog(window,
+                    "Risk of condensation");
     }
 
     public XYSeries getCoolingPlateSeries() {

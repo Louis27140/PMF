@@ -62,6 +62,15 @@ public class Frigo extends Observable {
         this.tempPlate = tempPlate;
     }
 
+    public boolean dewPoint() {
+     double a = 17.27;
+     double b = 237.7;
+
+     double temp = (a * getTempInt()) / (b + getTempInt()) + Math.log(getHygrometry() * 0.01);
+     temp = (b * temp) / (a - temp);
+     return  temp > getTempPlate();
+    }
+
     @Override
     public void notifyObservers(){
         setChanged();
