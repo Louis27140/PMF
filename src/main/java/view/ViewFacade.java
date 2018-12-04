@@ -1,6 +1,5 @@
 package view;
 
-import model.IModel;
 import model.fridge.Frigo;
 
 import org.jfree.chart.ChartFactory;
@@ -46,21 +45,8 @@ public class ViewFacade implements IView, Runnable, Observer {
     XYSeries indoorSeries = new XYSeries("Indoor");
     XYSeries outdoorSeries = new XYSeries("Outdoor");
 
-    /**
-     *
-     * @param model
-     */
-    public ViewFacade(IModel model) {
-        this.model = model;
-        this.setFrigo(model.getFrigo());
-=======
-    XYSeries coolingPlateSeries = new XYSeries("Cooling plate");
-    XYSeries indoorSeries = new XYSeries("Indoor");
-    XYSeries outdoorSeries = new XYSeries("Outdoor");
-
     public ViewFacade(Frigo frigo) {
         this.setFrigo(frigo);
->>>>>>> Stashed changes
         SwingUtilities.invokeLater(this);
     }
 
@@ -78,14 +64,11 @@ public class ViewFacade implements IView, Runnable, Observer {
     }
 
     public void buildFrame() {
-<<<<<<< Updated upstream
-=======
         ImageIcon imageIcon = new ImageIcon("src/Image/cesi.png");
         imageLabel = new JLabel(imageIcon);
 
         ImageIcon favicon = new ImageIcon("src/Image/favicon.ico");
 
->>>>>>> Stashed changes
         GridBagConstraints c = new GridBagConstraints();
         Font titleFont = new Font("Arial", Font.BOLD, 20);
 
