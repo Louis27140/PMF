@@ -114,9 +114,9 @@ public class ViewFacade implements IView, Runnable, Observer {
 
         hygrometer.setChart(hygrometer());
         chartTemp.setChart(createChartPanel());
-        thermo.setPreferredSize(new Dimension(150, 300));
-        hygrometer.setPreferredSize(new Dimension(200, 100));
-        chartTemp.setPreferredSize(new Dimension(1000, 500));
+        thermo.setPreferredSize(new Dimension(200, 400));
+        hygrometer.setPreferredSize(new Dimension(300, 200));
+        chartTemp.setPreferredSize(new Dimension(1000, 400));
         c.fill = GridBagConstraints.VERTICAL;
         this.setGrid(c , 0, 2);
         panHead.add(thermo, c);
@@ -158,11 +158,12 @@ public class ViewFacade implements IView, Runnable, Observer {
         final DefaultValueDataset data = new DefaultValueDataset(temp);
         final ThermometerPlot thermometer = new ThermometerPlot(data);
         thermometer.setRange(0, 40);
+        thermometer.setSubrangePaint(21, Color.blue);
         final JFreeChart chart = new JFreeChart(title,
                 JFreeChart.DEFAULT_TITLE_FONT,
                 thermometer,
                 false);
-
+        chart.setBackgroundPaint(Color.WHITE);
         return chart;
     }
 
@@ -174,10 +175,11 @@ public class ViewFacade implements IView, Runnable, Observer {
     public JFreeChart hygrometer() {
         final DefaultValueDataset data = new DefaultValueDataset(frigo.getHygrometry());
         final MeterPlot meter = new MeterPlot(data);
-        final JFreeChart chart = new JFreeChart("Hygrometer indoor",
+        final JFreeChart chart = new JFreeChart("Hygrometer",
                 JFreeChart.DEFAULT_TITLE_FONT,
                 meter,
                 false);
+        chart.setBackgroundPaint(Color.WHITE);
         meter.setUnits("% Humidity");
         return chart;
     }

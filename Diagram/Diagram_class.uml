@@ -3,20 +3,20 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="0.0">view.ViewFacade</node>
     <node x="327.0" y="0.0">model.fridge.Frigo</node>
+    <node x="0.0" y="0.0">view.ViewFacade</node>
     <node x="0.0" y="592.0">main</node>
     <node x="0.0" y="406.0">model.ModelFacade</node>
     <node x="413.0" y="406.0">controller.ControllerFacade</node>
   </nodes>
   <notes />
   <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="473.0" y="413.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="334.5" y="303.5" />
   <SelectedNodes />
   <Categories>
+    <Category>Fields</Category>
     <Category>Constructors</Category>
     <Category>Methods</Category>
-    <Category>Fields</Category>
     <Category>Properties</Category>
     <Category>Inner Classes</Category>
   </Categories>

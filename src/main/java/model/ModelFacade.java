@@ -14,7 +14,6 @@ public class ModelFacade implements IModel {
 
     public ModelFacade() {
         this.setFrigo(new Frigo(20.0f, 0.5f, 5.0f, 17.0f, 16.0f));
-        this.setView(view);
     }
 
     /**
